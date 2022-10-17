@@ -146,8 +146,12 @@ setEntity(currentIndex = 0);
 
     })
 prev.addEventListener('click', () => {
+   if (currentIndex == 0){
+    currentIndex=3;}
   setEntity(currentIndex - 1);
+  
   currentIndex -= 1;
+ 
   switch (currentIndex) {
   case 0:
    document.getElementById("circleFirst").setAttribute("fill", "white");
@@ -193,6 +197,8 @@ prev.addEventListener('click', () => {
 }
 })
 next.addEventListener('click', () => {
+   if (currentIndex == 2){
+    currentIndex=-1;}
   setEntity(currentIndex + 1);
   currentIndex += 1;
    switch (currentIndex) {
