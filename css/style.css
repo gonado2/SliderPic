@@ -1,0 +1,153 @@
+body{
+	background: #131313;
+	margin: 0px;
+	padding: 0px;
+	max-width: 1440px;
+	margin: auto;
+
+}
+.image{
+	background-image: url("../img/image1.png");
+	width: 680px;
+	height: 450px;
+	margin-top:  10px;
+	 background-size: cover;
+}
+
+
+
+button{
+	font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #E3B873;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+border-radius: 2px;
+border: 1px solid #FFFFFF;
+Width:207px ;
+
+Height: 51px ;
+
+
+}
+
+.completedprojects{
+	width: 100%;
+	height: 750px;
+	min-width: 1400px;
+	float: left;
+}
+.completedprojects h2{
+	font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 37px;
+letter-spacing: -0.07em;
+text-transform: uppercase;
+color: #E3B873;
+}
+.onlysmall{
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 27px;
+color: #FFFFFF;
+}
+
+.leftcomplete{
+padding-top: 170px;
+display: inline-block;
+width: 450px;
+margin: 0;
+padding-left:135px ;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.leftcomplete h3{
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+color: #E3B873;
+
+}
+.rightcomplete{
+width: 50%;
+display: inline-block;
+
+position: relative;
+top: -500px;
+}
+
+.rightcomplete a{
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-transform: uppercase;
+text-decoration: none;
+color: rgba(255, 255, 255, 0.3);
+padding-right: 60px;
+}
+/*.rightcomplete a:first-child{
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 23px;
+text-transform: uppercase;
+color: #E3B873;
+display: inline;
+padding-bottom: 6px;
+text-decoration: none;
+border-bottom: 1px solid;
+
+	}
+	*/
+.completecell{
+display: inline-block;
+width: 180px;
+padding-right: 30px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+color: #FFFFFF;
+	}
+.arrows{
+padding-top: 80px;
+}
+.arrows input{
+padding-right: 13px ;
+	}
+.arrows svg{
+	padding-left: 17px;
+}
+.next{
+	padding-left: 30px;
+}
+.control{
+width: 100%;
+height: 600px;
+background: linear-gradient(to top, white 50%, #131313 50%);
+}
+#rostov{
+	color: #E3B873;
+	text-decoration: underline;
+}
